@@ -287,6 +287,19 @@ footer .nav-link:hover {
   }
 }
 
+/* Pulsante salva */
+
+/* Personalizzazione del pulsante Salva */
+.save-button {
+  background-color: transparent;
+  border: 2px solid transparent;
+  transition: background-color 0.3s ease;
+}
+
+.save-button:hover {
+  background-color: #007bff; /* Colore del bordo al passaggio del mouse */
+}
+
 /* ANIMAZIONE CAMPANELLA */
 
 @keyframes bell-ring {
